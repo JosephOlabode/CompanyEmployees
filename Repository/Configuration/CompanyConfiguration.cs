@@ -32,7 +32,6 @@ namespace Repository.Configuration
 				);
 		}
 	}
-
     
 }
 
