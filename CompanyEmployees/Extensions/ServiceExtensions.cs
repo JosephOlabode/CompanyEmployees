@@ -1,6 +1,8 @@
 ﻿using System;
 using Contracts;
 using LoggerService;
+using Microsoft.EntityFrameworkCore;
+using Repository;
 
 namespace CompanyEmployees.Extensions
 {
@@ -23,6 +25,14 @@ namespace CompanyEmployees.Extensions
 
         public static void ConfigureLoggerService(this IServiceCollection services) =>
             services.AddSingleton<ILoggerManager, LoggerManager>();
+
+        public static void ConfigureMySqlContext(this IServiceCollection services, IConfiguration configuration)
+        {
+            string dbConnectionString = configuration.GetConnectionString("sqlConnection");
+            services.AddDbContext<RepositoryContext>(opt => opt.UseMySql(dbConnectionString, ServerVersion.AutoDetect(dbConnectionString)));
+
+
+        }
     }
 }
 

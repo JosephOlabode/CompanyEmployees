@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Tp4TsTgOPC6my9ew6K1TLCtu2pki1mubjhaaPMwBmXr9TfM6fDru6fAHA5S10dF0D1ee62Ej+rSiKZJPSZUtrg==",
+  "dgSpecHash": "diM+3i/ktJRZQQjLTqdkkL5dSdFRWT9FKomBSYAkuXqxSya5q1JQePHhZ4JaIYhrHuGseo4Z+7Je97ci/9O0Lw==",
   "success": true,
   "projectFilePath": "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -35,8 +35,10 @@
     "/Users/max/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.win32.systemevents/4.7.0/microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/mysqlconnector/2.1.2/mysqlconnector.2.1.2.nupkg.sha512",
     "/Users/max/.nuget/packages/nlog/4.7.11/nlog.4.7.11.nupkg.sha512",
     "/Users/max/.nuget/packages/nlog.extensions.logging/1.7.4/nlog.extensions.logging.1.7.4.nupkg.sha512",
+    "/Users/max/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.1/pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
     "/Users/max/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "/Users/max/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "/Users/max/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

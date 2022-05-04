@@ -18,8 +18,10 @@ namespace CompanyEmployees.ContextFactory
               .AddJsonFile("appsettings.json")
               .Build();
 
+            string dbConnectionString = configuration.GetConnectionString("sqlConnection");
+
             var builder = new DbContextOptionsBuilder<RepositoryContext>()
-                .UseSqlServer(configuration.GetConnectionString("sqlConnection"),
+                .UseMySql(dbConnectionString, ServerVersion.AutoDetect(dbConnectionString),
                 b => b.MigrationsAssembly("CompanyEmployees"));
 
             return new RepositoryContext(builder.Options);
