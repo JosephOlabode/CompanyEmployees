@@ -1,10 +1,27 @@
 ﻿<Properties StartupConfiguration="{40FD5DAF-8A43-4F0E-84D5-F967DC06B8A6}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees/appsettings.json">
+    <Files>
+      <File FileName="CompanyEmployees/Properties/launchSettings.json" Line="16" Column="38" />
+      <File FileName="CompanyEmployees/Program.cs" Line="22" Column="37" />
+      <File FileName="CompanyEmployees/Extensions/ServiceExtensions.cs" Line="30" Column="92" />
+      <File FileName="CompanyEmployees/appsettings.Production.json" Line="2" Column="1" />
+      <File FileName="CompanyEmployees/appsettings.json" Line="12" Column="106" />
+      <File FileName="CompanyEmployees/ContextFactory/RepositoryContextFactory.cs" Line="23" Column="64" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyEmployees" expanded="True">
-            <Node name="CompanyEmployees" expanded="True" />
+            <Node name="CompanyEmployees" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="ContextFactory" expanded="True" />
+              <Node name="Extensions" expanded="True" />
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+            <Node name="Entities" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="Repository" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -17,7 +34,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Entities FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.Repository FirstBuild="True" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
