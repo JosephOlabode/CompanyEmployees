@@ -4,6 +4,68 @@
     "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees/CompanyEmployees.csproj": {}
   },
   "projects": {
+    "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj",
+        "projectName": "CompanyEmployees.Presentation",
+        "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj",
+        "packagesPath": "/Users/max/.nuget/packages/",
+        "outputPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees.Presentation/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/max/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/max/Desktop/Dotnet/CompanyEmployees/Service.Contracts/Service.Contracts.csproj": {
+                "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Service.Contracts/Service.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees/CompanyEmployees.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -26,6 +88,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj": {
+                "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees.Presentation/CompanyEmployees.Presentation.csproj"
+              },
               "/Users/max/Desktop/Dotnet/CompanyEmployees/LoggerService/LoggerService.csproj": {
                 "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/LoggerService/LoggerService.csproj"
               },
