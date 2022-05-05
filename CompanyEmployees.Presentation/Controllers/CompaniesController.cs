@@ -1,9 +1,14 @@
 ﻿using System;
+using Microsoft.AspNetCore.Mvc;
+
 namespace CompanyEmployees.Presentation.Controllers
 {
-	public class CompaniesController
+	[Route("api/[companies]")]
+	[ApiController]
+	public class CompaniesController: ControllerBase
 	{
-		public CompaniesController()
+		
+		public  CompaniesController()
 		{
 		}
 	}

@@ -179,7 +179,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/max/Desktop/Dotnet/CompanyEmployees/Entities/Entities.csproj": {
+                "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Entities/Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -410,7 +414,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/max/Desktop/Dotnet/CompanyEmployees/Entities/Entities.csproj": {
+                "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Entities/Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
