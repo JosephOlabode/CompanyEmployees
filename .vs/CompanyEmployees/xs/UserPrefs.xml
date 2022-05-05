@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{40FD5DAF-8A43-4F0E-84D5-F967DC06B8A6}|Default">
+  <MonoDevelop.Ide.ItemProperties.CompanyEmployees.Presentation FirstBuild="True" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees/appsettings.json">
     <Files>
       <File FileName="CompanyEmployees/Properties/launchSettings.json" Line="16" Column="38" />
