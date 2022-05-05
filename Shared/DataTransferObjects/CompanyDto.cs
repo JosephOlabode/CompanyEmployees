@@ -1,6 +1,6 @@
 ﻿using System;
 namespace Shared.DataTransferObjects
 {
-	public record CompanyDto(Guid id, string Name, string FullName);
+	public record CompanyDto(Guid id, string Name, string FullAddress);
 }
 
