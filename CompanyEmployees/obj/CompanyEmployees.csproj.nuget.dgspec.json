@@ -418,8 +418,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/max/Desktop/Dotnet/CompanyEmployees/Entities/Entities.csproj": {
-                "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Entities/Entities.csproj"
+              "/Users/max/Desktop/Dotnet/CompanyEmployees/Shared/Shared.csproj": {
+                "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Shared/Shared.csproj"
               }
             }
           }
@@ -481,6 +481,58 @@
                 "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Service.Contracts/Service.Contracts.csproj"
               }
             }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/max/Desktop/Dotnet/CompanyEmployees/Shared/Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/max/Desktop/Dotnet/CompanyEmployees/Shared/Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Shared/Shared.csproj",
+        "packagesPath": "/Users/max/.nuget/packages/",
+        "outputPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/max/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
