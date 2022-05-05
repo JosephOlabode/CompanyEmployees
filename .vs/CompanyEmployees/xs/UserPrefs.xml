@@ -1,5 +1,4 @@
 ﻿<Properties StartupConfiguration="{40FD5DAF-8A43-4F0E-84D5-F967DC06B8A6}|Default">
-  <MonoDevelop.Ide.ItemProperties.CompanyEmployees.Presentation FirstBuild="True" />
   <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees/appsettings.json">
     <Files>
       <File FileName="CompanyEmployees/Properties/launchSettings.json" Line="16" Column="38" />
@@ -32,12 +31,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Service FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.Service.Contracts FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Entities FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Repository FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Shared FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
