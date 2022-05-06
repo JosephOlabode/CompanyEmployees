@@ -1,6 +1,11 @@
 ﻿using System;
 namespace Shared.DataTransferObjects
 {
-	public record CompanyDto(Guid id, string Name, string FullAddress);
+	[Serializable]
+	public record CompanyDto {
+		public Guid Id { get; init; }
+		public string? Name { get; init; }
+		public string? FullAddress { get; init; }
+	};
 }
 
