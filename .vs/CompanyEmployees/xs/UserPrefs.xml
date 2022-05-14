@@ -1,27 +1,19 @@
 ﻿<Properties StartupConfiguration="{40FD5DAF-8A43-4F0E-84D5-F967DC06B8A6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees/appsettings.json">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees/Extensions/ServiceExtensions.cs">
     <Files>
-      <File FileName="CompanyEmployees/Properties/launchSettings.json" Line="16" Column="38" />
-      <File FileName="CompanyEmployees/Program.cs" Line="22" Column="37" />
-      <File FileName="CompanyEmployees/Extensions/ServiceExtensions.cs" Line="30" Column="92" />
-      <File FileName="CompanyEmployees/appsettings.Production.json" Line="2" Column="1" />
-      <File FileName="CompanyEmployees/appsettings.json" Line="12" Column="106" />
-      <File FileName="CompanyEmployees/ContextFactory/RepositoryContextFactory.cs" Line="23" Column="64" />
+      <File FileName="Shared/DataTransferObjects/CompanyDto.cs" Line="7" Column="37" />
+      <File FileName="CompanyEmployees/CsvOutputFormatter.cs" Line="18" Column="38" />
+      <File FileName="CompanyEmployees/Extensions/ServiceExtensions.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyEmployees" expanded="True">
-            <Node name="CompanyEmployees" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="ContextFactory" expanded="True" />
-              <Node name="Extensions" expanded="True" />
-              <Node name="appsettings.json" expanded="True" />
+            <Node name="CompanyEmployees" expanded="True" />
+            <Node name="Shared" expanded="True">
+              <Node name="DataTransferObjects" expanded="True" />
             </Node>
-            <Node name="Entities" expanded="True">
-              <Node name="Models" expanded="True" />
-            </Node>
-            <Node name="Repository" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -30,10 +22,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Shared FirstBuild="True" />
   <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
