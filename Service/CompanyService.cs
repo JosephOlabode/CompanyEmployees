@@ -52,7 +52,7 @@ namespace Service
 
         public void DeleteCompany(Guid companyId, bool trackChanges)
         {
-            var company = _repository.Company.GetCompany(companyId, trackChanges: false);
+            var company = _repository.Company.GetCompany(companyId, trackChanges);
             if (company is null)
                 throw new CompanyNotFoundException(companyId);
 
