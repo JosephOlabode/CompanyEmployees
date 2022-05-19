@@ -426,6 +426,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/Users/max/Desktop/Dotnet/CompanyEmployees/Entities/Entities.csproj": {
+                "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Entities/Entities.csproj"
+              },
               "/Users/max/Desktop/Dotnet/CompanyEmployees/Shared/Shared.csproj": {
                 "projectPath": "/Users/max/Desktop/Dotnet/CompanyEmployees/Shared/Shared.csproj"
               }
