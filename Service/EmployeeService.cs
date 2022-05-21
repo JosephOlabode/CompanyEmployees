@@ -98,7 +98,8 @@ namespace Service
 
         public void SaveChangesForPatch(EmployeeForUpdateDto employeeToPatch, Employee employeeEntity)
         {
-            throw new NotImplementedException();
+			_mapper.Map(employeeToPatch, employeeEntity);
+			_repository.Save();
         }
 
         public void UpdateEmployeeForCompany(Guid companyId, Guid id, EmployeeForUpdateDto employeeForUpdate, bool compTrackChanges, bool empTrackChanges)
