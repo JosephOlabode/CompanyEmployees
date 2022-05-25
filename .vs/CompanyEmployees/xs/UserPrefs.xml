@@ -1,52 +1,30 @@
 ﻿<Properties StartupConfiguration="{40FD5DAF-8A43-4F0E-84D5-F967DC06B8A6}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees.Presentation/Controllers/CompaniesController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/DataTransferObjects/EmployeeForCreationDto.cs">
     <Files>
-      <File FileName="Shared/DataTransferObjects/CompanyDto.cs" Line="7" Column="37" />
-      <File FileName="CompanyEmployees/CsvOutputFormatter.cs" Line="18" Column="38" />
-      <File FileName="CompanyEmployees/Extensions/ServiceExtensions.cs" Line="9" Column="38" />
-      <File FileName="CompanyEmployees/Extensions/ExceptionMiddlewareExtensions.cs" Line="28" Column="84" />
-      <File FileName="CompanyEmployees.Presentation/Controllers/CompaniesController.cs" Line="44" Column="1" />
-      <File FileName="Shared/DataTransferObjects/CompanyForCreationDto.cs" Line="5" Column="2" />
-      <File FileName="Contracts/ICompanyRepository.cs" Line="11" Column="75" />
-      <File FileName="Repository/CompanyRepository.cs" Line="22" Column="149" />
-      <File FileName="Service.Contracts/ICompanyService.cs" Line="12" Column="129" />
-      <File FileName="Service/CompanyService.cs" Line="43" Column="60" />
-      <File FileName="CompanyEmployees/MappingProfile.cs" Line="15" Column="39" />
-      <File FileName="CompanyEmployees/Program.cs" Line="23" Column="1" />
-      <File FileName="Shared/DataTransferObjects/EmployeeDto.cs" Line="1" Column="1" />
-      <File FileName="Shared/DataTransferObjects/EmployeeForCreationDto.cs" Line="7" Column="1" />
-      <File FileName="Repository/EmployeeRepository.cs" Line="21" Column="21" />
-      <File FileName="Contracts/IEmployeeRepository.cs" Line="6" Column="38" />
-      <File FileName="Service.Contracts/IEmployeeService.cs" Line="10" Column="119" />
-      <File FileName="Service/EmployeeService.cs" Line="29" Column="1" />
-      <File FileName="CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="28" Column="4" />
-      <File FileName="Entities/Exceptions/BadRequestException.cs" Line="4" Column="17" />
-      <File FileName="Entities/Exceptions/IdParametersBadRequestException.cs" Line="4" Column="16" />
-      <File FileName="Entities/Exceptions/CollectionByIdsBadRequestException.cs" Line="12" Column="1" />
-      <File FileName="Repository/Configuration/CompanyConfiguration.cs" Line="6" Column="22" />
-      <File FileName="CompanyEmployees.Presentation/AssemblyReference.cs" Line="1" Column="1" />
-      <File FileName="Entities/Exceptions/NotFoundException.cs" Line="1" Column="1" />
-      <File FileName="Entities/ErrorModel/ErrorDetails.cs" Line="1" Column="1" />
-      <File FileName="LoggerService/LoggerManager.cs" Line="1" Column="1" />
-      <File FileName="CompanyEmployees/ContextFactory/RepositoryContextFactory.cs" Line="1" Column="1" />
-      <File FileName="Repository/Configuration/EmployeeConfiguration.cs" Line="1" Column="1" />
-      <File FileName="Entities/Exceptions/CompanyCollectionBadRequest.cs" Line="6" Column="95" />
-      <File FileName="CompanyEmployees.Presentation/ModelBinders/ArrayModelBinder.cs" Line="27" Column="43" />
+      <File FileName="Service.Contracts/ICompanyService.cs" Line="14" Column="98" />
+      <File FileName="Service/CompanyService.cs" Line="108" Column="2" />
+      <File FileName="CompanyEmployees.Presentation/Controllers/CompaniesController.cs" Line="65" Column="10" />
+      <File FileName="CompanyEmployees/Program.cs" Line="30" Column="68" />
+      <File FileName="CompanyEmployees/MappingProfile.cs" Line="22" Column="2" />
+      <File FileName="Service.Contracts/IEmployeeService.cs" Line="15" Column="157" />
+      <File FileName="Service/EmployeeService.cs" Line="103" Column="10" />
+      <File FileName="CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="65" Column="125" />
+      <File FileName="Entities/Models/Company.cs" Line="1" Column="1" />
+      <File FileName="Shared/DataTransferObjects/EmployeeForCreationDto.cs" Line="15" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyEmployees" expanded="True">
-            <Node name="CompanyEmployees.Presentation" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="ModelBinders" expanded="True" />
+            <Node name="CompanyEmployees" expanded="True" />
+            <Node name="Entities" expanded="True">
+              <Node name="Models" expanded="True" />
             </Node>
-            <Node name="Service" expanded="True" />
-            <Node name="Service.Contracts" expanded="True" />
-            <Node name="Shared" expanded="True" />
+            <Node name="Shared" expanded="True">
+              <Node name="DataTransferObjects" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -58,5 +36,6 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
 </Properties>
