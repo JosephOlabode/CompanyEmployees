@@ -72,6 +72,8 @@ namespace CompanyEmployees.Presentation.Controllers
 
 			patchDoc.ApplyTo(result.employeeToPatch, ModelState);
 
+			TryValidateModel(result.employeeToPatch);
+
 			if (!ModelState.IsValid)
 				return UnprocessableEntity(ModelState);
 
