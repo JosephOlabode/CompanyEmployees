@@ -1,30 +1,42 @@
 ﻿<Properties StartupConfiguration="{40FD5DAF-8A43-4F0E-84D5-F967DC06B8A6}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/DataTransferObjects/EmployeeForCreationDto.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees.Presentation/Controllers/EmployeesController.cs">
     <Files>
-      <File FileName="Service.Contracts/ICompanyService.cs" Line="14" Column="98" />
-      <File FileName="Service/CompanyService.cs" Line="108" Column="2" />
-      <File FileName="CompanyEmployees.Presentation/Controllers/CompaniesController.cs" Line="65" Column="10" />
+      <File FileName="Service.Contracts/ICompanyService.cs" Line="14" Column="26" />
+      <File FileName="Service/CompanyService.cs" Line="98" Column="45" />
+      <File FileName="CompanyEmployees.Presentation/Controllers/CompaniesController.cs" Line="75" Column="1" />
       <File FileName="CompanyEmployees/Program.cs" Line="30" Column="68" />
       <File FileName="CompanyEmployees/MappingProfile.cs" Line="22" Column="2" />
-      <File FileName="Service.Contracts/IEmployeeService.cs" Line="15" Column="157" />
-      <File FileName="Service/EmployeeService.cs" Line="103" Column="10" />
-      <File FileName="CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="65" Column="125" />
+      <File FileName="Service.Contracts/IEmployeeService.cs" Line="5" Column="28" />
+      <File FileName="Service/EmployeeService.cs" Line="54" Column="1" />
+      <File FileName="CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="76" Column="1" />
       <File FileName="Entities/Models/Company.cs" Line="1" Column="1" />
-      <File FileName="Shared/DataTransferObjects/EmployeeForCreationDto.cs" Line="15" Column="48" />
+      <File FileName="Shared/DataTransferObjects/EmployeeForCreationDto.cs" Line="9" Column="1" />
+      <File FileName="Shared/DataTransferObjects/EmployeeForUpdateDto.cs" Line="8" Column="1" />
+      <File FileName="Shared/DataTransferObjects/EmployeeForManipulationDto.cs" Line="9" Column="79" />
+      <File FileName="Repository/EmployeeRepository.cs" Line="17" Column="25" />
+      <File FileName="Contracts/ICompanyRepository.cs" Line="10" Column="39" />
+      <File FileName="Repository/CompanyRepository.cs" Line="12" Column="4" />
+      <File FileName="Contracts/IRepositoryManager.cs" Line="10" Column="2" />
+      <File FileName="Repository/RepositoryManager.cs" Line="23" Column="2" />
+      <File FileName="Service/ServiceManager.cs" Line="1" Column="1" />
+      <File FileName="Shared/DataTransferObjects/CompanyForCreationDto.cs" Line="6" Column="65" />
+      <File FileName="Shared/DataTransferObjects/CompanyForUpdateDto.cs" Line="7" Column="1" />
+      <File FileName="Shared/DataTransferObjects/CompanyForManipulationDto.cs" Line="6" Column="50" />
+      <File FileName="Contracts/IEmployeeRepository.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyEmployees" expanded="True">
-            <Node name="CompanyEmployees" expanded="True" />
-            <Node name="Entities" expanded="True">
-              <Node name="Models" expanded="True" />
+            <Node name="CompanyEmployees" expanded="True">
+              <Node name="Dependencies" expanded="True" />
             </Node>
-            <Node name="Shared" expanded="True">
-              <Node name="DataTransferObjects" expanded="True" />
+            <Node name="CompanyEmployees.Presentation" expanded="True">
+              <Node name="Controllers" expanded="True" />
             </Node>
+            <Node name="Shared" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -37,5 +49,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
