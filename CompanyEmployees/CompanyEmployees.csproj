@@ -26,12 +26,10 @@
     <None Remove="Pomelo.EntityFrameworkCore.MySql" />
     <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
     <None Remove="Microsoft.AspNetCore.Mvc.NewtonsoftJson" />
-    <None Remove="ActionFilters\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extensions\" />
     <Folder Include="ContextFactory\" />
-    <Folder Include="ActionFilters\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Repository\Repository.csproj">
