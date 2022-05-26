@@ -115,6 +115,25 @@ namespace Service
 			_mapper.Map(employeeForUpdate, employeeEntity);
 			await _repository.SaveAsync();
         }
-    }
+
+		private async Task<Company> CheckIfCompanyExist(Guid companyId, bool trackChanges)
+        {
+			var company = await _repository.Company.GetCompanyAsync(companyId, trackChanges);
+			if (company is null)
+				throw new CompanyNotFoundException(companyId);
+
+			return company;
+		}
+
+		private async Task<Employee> GetEmployeeForCompanyAndCheckIfItExists(Guid companyId, Guid id, bool trackChanges)
+        {
+			var employee = await _repository.Employee.GetEmployeeAsync(companyId, id, trackChanges);
+			if (employee is null)
+				throw new EmployeeNotFoundException(id);
+
+			return employee;
+		}
+
+	}
 }
 
