@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DNkahzHUsbvO3utMezXBSgJFDMyzFPbpQ1gqvasO37H4pjulWJWxoiBDxigrTPiuPfWyek5iCyY+ijsSusaPQw==",
+  "dgSpecHash": "I9C4L1UR2ID0uUyFc+qr+bIkG+lOrIEH6lrCv+4CfMt65At9MM7qJHtba3GTM/bY377eH/TGFGILOKr1IwQvAw==",
   "success": true,
   "projectFilePath": "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
@@ -88,6 +88,7 @@
     "/Users/max/.nuget/packages/system.io.filesystem/4.0.1/system.io.filesystem.4.0.1.nupkg.sha512",
     "/Users/max/.nuget/packages/system.io.filesystem.primitives/4.0.1/system.io.filesystem.primitives.4.0.1.nupkg.sha512",
     "/Users/max/.nuget/packages/system.linq/4.1.0/system.linq.4.1.0.nupkg.sha512",
+    "/Users/max/.nuget/packages/system.linq.dynamic.core/1.2.18/system.linq.dynamic.core.1.2.18.nupkg.sha512",
     "/Users/max/.nuget/packages/system.linq.expressions/4.1.0/system.linq.expressions.4.1.0.nupkg.sha512",
     "/Users/max/.nuget/packages/system.objectmodel/4.0.12/system.objectmodel.4.0.12.nupkg.sha512",
     "/Users/max/.nuget/packages/system.reflection/4.1.0/system.reflection.4.1.0.nupkg.sha512",
