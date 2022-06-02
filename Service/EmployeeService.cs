@@ -14,12 +14,14 @@ namespace Service
 		private readonly IRepositoryManager _repository;
 		private readonly ILoggerManager _logger;
 		private readonly IMapper _mapper;
+		private readonly IDataShaper<EmployeeDto> _dataShaper;
 
-		public EmployeeService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
+		public EmployeeService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper, IDataShaper<EmployeeDto> dataShaper)
 		{
 			_repository = repository;
 			_logger = logger;
 			_mapper = mapper;
+			_dataShaper = dataShaper;
 		}
 
         public async Task<EmployeeDto> CreateEmployeeForCompanyAsync(Guid companyId, EmployeeForCreationDto employeeForCreation, bool trackChanges)
