@@ -3,6 +3,7 @@ using System.Formats.Asn1;
 using System.Reflection;
 using System.Text;
 using Entities.Models;
+using Repository.Extensions.Utility;
 
 namespace Repository.Extensions
 {
@@ -45,7 +46,8 @@ namespace Repository.Extensions
 				orderQueryBuilder.Append($"{objectProperty.Name.ToString()} {direction},");
 			}
 
-			var orderQuery = orderQueryBuilder.ToString().TrimEnd(',', ' ');
+			//var orderQuery = orderQueryBuilder.ToString().TrimEnd(',', ' ');
+			var orderQuery = OrderQueryBuilder.CreateOrderQuery<Employee>(orderByQueryString);
 
 			if (string.IsNullOrWhiteSpace(orderQuery))
 				return employees.OrderBy(e => e.Name);
