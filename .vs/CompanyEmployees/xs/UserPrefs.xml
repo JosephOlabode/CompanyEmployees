@@ -1,23 +1,28 @@
 ﻿<Properties StartupConfiguration="{40FD5DAF-8A43-4F0E-84D5-F967DC06B8A6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees.Presentation/Controllers/EmployeesController.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repository/Extensions/RepositoryEmployeeExtensions.cs">
     <Files>
-      <File FileName="CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="25" Column="35" />
+      <File FileName="CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="31" Column="56" />
       <File FileName="Contracts/IEmployeeRepository.cs" Line="6" Column="2" />
-      <File FileName="Repository/EmployeeRepository.cs" Line="21" Column="1" />
-      <File FileName="Service/EmployeeService.cs" Line="76" Column="62" />
-      <File FileName="Service.Contracts/IEmployeeService.cs" Line="8" Column="35" />
-      <File FileName="Shared/RequestFeatures/MetaData.cs" Line="14" Column="2" />
-      <File FileName="Shared/RequestFeatures/PagedList.cs" Line="18" Column="4" />
+      <File FileName="Repository/EmployeeRepository.cs" Line="9" Column="2" />
+      <File FileName="Service/EmployeeService.cs" Line="73" Column="1" />
+      <File FileName="Service.Contracts/IEmployeeService.cs" Line="12" Column="131" />
+      <File FileName="Shared/RequestFeatures/EmployeeParameters.cs" Line="6" Column="51" />
+      <File FileName="Repository/Extensions/RepositoryEmployeeExtensions.cs" Line="23" Column="1" />
+      <File FileName="Shared/RequestFeatures/RequestParameters.cs" Line="20" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyEmployees" expanded="True">
-            <Node name="CompanyEmployees.Presentation" expanded="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="CompanyEmployees" expanded="True">
+              <Node name="Extensions" expanded="True" />
             </Node>
-            <Node name="Contracts" expanded="True" />
-            <Node name="Service" expanded="True" />
+            <Node name="Repository" expanded="True">
+              <Node name="Extensions" expanded="True">
+                <Node name="RepositoryEmployeeExtensions.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -26,11 +31,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
