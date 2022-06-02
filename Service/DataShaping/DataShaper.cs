@@ -65,6 +65,19 @@ namespace Service.DataShaping
 
             return shapedData;
         }
+
+        private ExpandoObject FetchDataForEntity(T entity, IEnumerable<PropertyInfo> requiredProperties)
+        {
+            var shapedObject = new ExpandoObject();
+
+            foreach(var property in requiredProperties)
+            {
+                var objectPropertyValue = property.GetValue(entity);
+                shapedObject.TryAdd(property.Name, objectPropertyValue);
+            }
+
+            return shapedObject;
+        }
     }
 }
 
