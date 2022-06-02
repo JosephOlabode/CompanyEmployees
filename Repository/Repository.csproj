@@ -15,6 +15,7 @@
     <None Remove="Configuration\" />
     <None Remove="Extensions\" />
     <None Remove="System.Linq.Dynamic.Core" />
+    <None Remove="Extensions\Utility\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.4" />
@@ -23,5 +24,6 @@
   <ItemGroup>
     <Folder Include="Configuration\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Extensions\Utility\" />
   </ItemGroup>
 </Project>
