@@ -19,12 +19,11 @@ namespace Service
 		private readonly IDataShaper<EmployeeDto> _dataShaper;
 		private readonly IEmployeeLinks _employeeLinks;
 
-		public EmployeeService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper, IDataShaper<EmployeeDto> dataShaper, IEmployeeLinks employeeLinks)
+		public EmployeeService(IRepositoryManager repository, ILoggerManager logger, IMapper mapper,  IEmployeeLinks employeeLinks)
 		{
 			_repository = repository;
 			_logger = logger;
 			_mapper = mapper;
-			_dataShaper = dataShaper;
 			_employeeLinks = employeeLinks;
 		}
 
