@@ -1,6 +1,7 @@
 ﻿using System;
 using Contracts;
 using Entities.LinkModels;
+using Entities.Models;
 using Shared.DataTransferObjects;
 
 namespace CompanyEmployees.Utility
@@ -24,6 +25,11 @@ namespace CompanyEmployees.Utility
 
             return ReturnShapedEmployees(shapedEmployees);
         }
+
+        private List<Entity> ShapeData(IEnumerable<EmployeeDto> employeesDto, string fields) =>
+            _dataShaper.ShapeData(employeesDto, fields)
+                .Select(e => e.Entity)
+                .ToList();
     }
 }
 
