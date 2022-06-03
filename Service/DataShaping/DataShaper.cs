@@ -2,6 +2,7 @@
 using System.Dynamic;
 using System.Reflection;
 using Contracts;
+using Entities.Models;
 
 namespace Service.DataShaping
 {
@@ -66,15 +67,18 @@ namespace Service.DataShaping
             return shapedData;
         }
 
-        private ExpandoObject FetchDataForEntity(T entity, IEnumerable<PropertyInfo> requiredProperties)
+        private ShapedEntity FetchDataForEntity(T entity, IEnumerable<PropertyInfo> requiredProperties)
         {
-            var shapedObject = new ExpandoObject();
+            var shapedObject = new ShapedEntity();
 
             foreach(var property in requiredProperties)
             {
                 var objectPropertyValue = property.GetValue(entity);
-                shapedObject.TryAdd(property.Name, objectPropertyValue);
+                shapedObject.Entity.TryAdd(property.Name, objectPropertyValue);
             }
+
+            var objectProperty = entity.GetType().GetProperty("Id");
+            shapedObject.Id = (Guid)objectProperty.GetValue(entity);
 
             return shapedObject;
         }
