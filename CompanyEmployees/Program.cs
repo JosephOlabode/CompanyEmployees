@@ -37,6 +37,7 @@ builder.Services.AddControllers(config =>
   .AddCustomCSVFormatter()
   .AddApplicationPart(typeof(CompanyEmployees.Presentation.AssemblyReference).Assembly);
 
+builder.Services.AddCustomMediaTypes();
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddScoped<IDataShaper<EmployeeDto>, DataShaper<EmployeeDto>>();
 
