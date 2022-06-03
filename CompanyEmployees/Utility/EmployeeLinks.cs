@@ -39,6 +39,21 @@ namespace CompanyEmployees.Utility
         }
 
         private LinkResponse ReturnShapedEmployees(List<Entity> shapedEmployees) => new LinkResponse { ShapedEntities = shapedEmployees };
+
+        private LinkResponse ReturnLinkdedEmployees(IEnumerable<EmployeeDto> employeesDto, string fields, Guid companyId, HttpContext httpContext, List<Entity> shapedEmployees)
+        {
+            var employeeDtoList = employeesDto.ToList();
+
+            for (var index = 0; index < employeeDtoList.Count(); index++)
+            {
+                var employeeLinks = CreateLinksForEmployee(httpContext, companyId, employeeDtoList[index].Id, fields);
+                shapedEmployees[index].Add("Links", employeeLinks);
+            }
+
+            var employeeCollection = new LinkCollectionWrapper<Entity>(shapedEmployees);
+            var linkedEmployees = CreateLinksForEmployees(httpContext, employeeCollection);
+            return new LinkResponse { HasLinks = true, LinkedEntities = linkedEmployees };
+        }
     }
 }
 
