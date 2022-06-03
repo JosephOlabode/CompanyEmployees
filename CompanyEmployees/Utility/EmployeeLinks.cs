@@ -2,6 +2,7 @@
 using Contracts;
 using Entities.LinkModels;
 using Entities.Models;
+using Microsoft.Net.Http.Headers;
 using Shared.DataTransferObjects;
 
 namespace CompanyEmployees.Utility
@@ -30,6 +31,14 @@ namespace CompanyEmployees.Utility
             _dataShaper.ShapeData(employeesDto, fields)
                 .Select(e => e.Entity)
                 .ToList();
+
+        private bool ShouldGenerateLinks(HttpContext httpContext)
+        {
+            var mediaType = (MediaTypeHeaderValue)httpContext.Items["AcceptHeaderMediaType"];
+            return mediaType.SubTypeWithoutSuffix.EndsWith("hateoas", StringComparison.InvariantCultureIgnoreCase);
+        }
+
+        private LinkResponse ReturnShapedEmployees(List<Entity> shapedEmployees) => new LinkResponse { ShapedEntities = shapedEmployees };
     }
 }
 
