@@ -1,7 +1,7 @@
 ﻿using System;
-using System.Net.Http.Headers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using Microsoft.Net.Http.Headers;
 
 namespace CompanyEmployees.Presentation.ActionFilters
 {
@@ -12,8 +12,7 @@ namespace CompanyEmployees.Presentation.ActionFilters
 		}
 
         public void OnActionExecuted(ActionExecutedContext context)
-        {
-            throw new NotImplementedException();
+        { 
         }
 
         public void OnActionExecuting(ActionExecutingContext context)
