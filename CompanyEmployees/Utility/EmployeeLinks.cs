@@ -1,5 +1,6 @@
 ﻿using System;
 using Contracts;
+using Entities.LinkModels;
 using Shared.DataTransferObjects;
 
 namespace CompanyEmployees.Utility
@@ -12,6 +13,16 @@ namespace CompanyEmployees.Utility
         {
             _linkGenerator = linkGenerator;
             _dataShaper = dataShaper;
+        }
+
+        public LinkResponse TryGenerateLinks(IEnumerable<EmployeeDto> employeesDto, string fields, Guid companyId, HttpContext httpContext)
+        {
+            var shapedEmployees = ShapeData(employeesDto, fields);
+
+            if (ShouldGenerateLinks(httpContext))
+                return ReturnLinkdedEmployees(employeesDto, fields, companyId, httpContext, shapedEmployees);
+
+            return ReturnShapedEmployees(shapedEmployees);
         }
     }
 }
