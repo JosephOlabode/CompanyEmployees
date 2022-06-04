@@ -47,5 +47,8 @@
     <ProjectReference Include="..\CompanyEmployees.Presentation\CompanyEmployees.Presentation.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\CompanyEmployees.Presentation\CompanyEmployees.Presentation.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
   </ItemGroup>
 </Project>
