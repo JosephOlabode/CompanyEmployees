@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "7+7CKlI2jpdgcSX1i82+EYidjg1AqO981o/aWotqcIafpkJ7ibfj6Ra50yyjfgIC/67oHXroac1zlNv/3aBDIA==",
-  "success": false,
+  "dgSpecHash": "7VFigV15ykum9eTdUYMbZ79MYgD+77rxhU2T+p82bvn/phDjaoms6s7p7aqZMktzVwFANbc8RmlXgF790UL6jA==",
+  "success": true,
   "projectFilePath": "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
     "/Users/max/.nuget/packages/aspnetcoreratelimit/4.0.2/aspnetcoreratelimit.4.0.2.nupkg.sha512",
@@ -35,13 +35,13 @@
     "/Users/max/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.dotnet.platformabstractions/2.1.0/microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
-    "/Users/max/.nuget/packages/microsoft.entityframeworkcore/6.0.4/microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
-    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.4/microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",
-    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.4/microsoft.entityframeworkcore.analyzers.6.0.4.nupkg.sha512",
-    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.design/6.0.4/microsoft.entityframeworkcore.design.6.0.4.nupkg.sha512",
-    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.4/microsoft.entityframeworkcore.relational.6.0.4.nupkg.sha512",
-    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.4/microsoft.entityframeworkcore.sqlserver.6.0.4.nupkg.sha512",
-    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.4/microsoft.entityframeworkcore.tools.6.0.4.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.design/6.0.5/microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.5/microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.5/microsoft.entityframeworkcore.sqlserver.6.0.5.nupkg.sha512",
+    "/Users/max/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.5/microsoft.entityframeworkcore.tools.6.0.5.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
@@ -77,10 +77,10 @@
     "/Users/max/.nuget/packages/nlog.extensions.logging/1.7.4/nlog.extensions.logging.1.7.4.nupkg.sha512",
     "/Users/max/.nuget/packages/pomelo.entityframeworkcore.mysql/6.0.1/pomelo.entityframeworkcore.mysql.6.0.1.nupkg.sha512",
     "/Users/max/.nuget/packages/runtime.native.system/4.0.0/runtime.native.system.4.0.0.nupkg.sha512",
-    "/Users/max/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "/Users/max/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "/Users/max/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "/Users/max/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/Users/max/.nuget/packages/swashbuckle.aspnetcore/6.3.1/swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
+    "/Users/max/.nuget/packages/swashbuckle.aspnetcore.swagger/6.3.1/swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "/Users/max/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.3.1/swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
+    "/Users/max/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.3.1/swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
     "/Users/max/.nuget/packages/system.appcontext/4.1.0/system.appcontext.4.1.0.nupkg.sha512",
     "/Users/max/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/max/.nuget/packages/system.collections/4.0.11/system.collections.4.0.11.nupkg.sha512",
@@ -127,51 +127,5 @@
     "/Users/max/.nuget/packages/system.threading.tasks.extensions/4.5.1/system.threading.tasks.extensions.4.5.1.nupkg.sha512",
     "/Users/max/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.Relational from 6.0.5 to 6.0.4. Reference the package directly from the project to select a different version. \n CompanyEmployees -> CompanyEmployees.Presentation -> Entities -> Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.5 -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.5) \n CompanyEmployees -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.4)",
-      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.Relational from 6.0.5 to 6.0.4. Reference the package directly from the project to select a different version. \n CompanyEmployees -> Repository -> Entities -> Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.5 -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.5) \n CompanyEmployees -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.4)",
-      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.Relational from 6.0.5 to 6.0.4. Reference the package directly from the project to select a different version. \n CompanyEmployees -> LoggerService -> Contracts -> Entities -> Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.5 -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.5) \n CompanyEmployees -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.4)",
-      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.Relational from 6.0.5 to 6.0.4. Reference the package directly from the project to select a different version. \n CompanyEmployees -> Service -> Contracts -> Entities -> Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.5 -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.5) \n CompanyEmployees -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.4)",
-      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Detected package downgrade: Microsoft.EntityFrameworkCore.Relational from 6.0.5 to 6.0.4. Reference the package directly from the project to select a different version. \n CompanyEmployees -> Service -> Service.Contracts -> Entities -> Microsoft.AspNetCore.Identity.EntityFrameworkCore 6.0.5 -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.5) \n CompanyEmployees -> Microsoft.EntityFrameworkCore.Relational (>= 6.0.4)",
-      "libraryId": "Microsoft.EntityFrameworkCore.Relational",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }
