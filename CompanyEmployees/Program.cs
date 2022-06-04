@@ -1,4 +1,5 @@
-﻿using CompanyEmployees.ActionFilters;
+﻿using AspNetCoreRateLimit;
+using CompanyEmployees.ActionFilters;
 using CompanyEmployees.Extensions;
 using CompanyEmployees.Presentation.ActionFilters;
 using CompanyEmployees.Utility;
@@ -88,6 +89,7 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 app.UseCors("CorsPolicy");
 app.UseResponseCaching();
 app.UseHttpCacheHeaders();
+app.UseIpRateLimiting();
 
 app.UseAuthorization();
 
