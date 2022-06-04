@@ -22,6 +22,7 @@ builder.Services.ConfigureLoggerService();
 builder.Services.ConfigureMySqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
+builder.Services.ConfigureVersioning();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
