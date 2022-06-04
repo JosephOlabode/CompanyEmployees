@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/X2UGfTCTWFU9yhV7n5rsw38o4LyVqKlMxfYqRGbRtR/lCiWQjvNwr/Fsq6Y+px2L/vMnYlVp4RKVr+R7DnCaA==",
+  "dgSpecHash": "b3XL0Qhqd591vNSURrDVrkPNH5C/Y6tGbGOipGVsIQGS6JzD8Dx5LCtaopp7+2k0sjly3415epnCjpfEyNbgZw==",
   "success": true,
   "projectFilePath": "/Users/max/Desktop/Dotnet/CompanyEmployees/CompanyEmployees/CompanyEmployees.csproj",
   "expectedPackageFiles": [
     "/Users/max/.nuget/packages/automapper/11.0.0/automapper.11.0.0.nupkg.sha512",
     "/Users/max/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "/Users/max/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/max/.nuget/packages/marvin.cache.headers/6.1.0/marvin.cache.headers.6.1.0.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.aspnetcore.authentication.abstractions/2.2.0/microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.aspnetcore.authentication.core/2.2.0/microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "/Users/max/.nuget/packages/microsoft.aspnetcore.authorization/2.2.0/microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
