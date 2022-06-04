@@ -1,28 +1,48 @@
 ﻿<Properties StartupConfiguration="{40FD5DAF-8A43-4F0E-84D5-F967DC06B8A6}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Repository/Extensions/RepositoryEmployeeExtensions.cs">
+  <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CompanyEmployees.Presentation/ActionFilters/ValidateMediaTypeAttribute.cs">
     <Files>
-      <File FileName="CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="31" Column="56" />
+      <File FileName="CompanyEmployees.Presentation/Controllers/EmployeesController.cs" Line="29" Column="1" />
       <File FileName="Contracts/IEmployeeRepository.cs" Line="6" Column="2" />
-      <File FileName="Repository/EmployeeRepository.cs" Line="9" Column="2" />
-      <File FileName="Service/EmployeeService.cs" Line="73" Column="1" />
-      <File FileName="Service.Contracts/IEmployeeService.cs" Line="12" Column="131" />
+      <File FileName="Repository/EmployeeRepository.cs" Line="22" Column="22" />
+      <File FileName="Service/EmployeeService.cs" Line="26" Column="21" />
+      <File FileName="Service.Contracts/IEmployeeService.cs" Line="11" Column="3" />
       <File FileName="Shared/RequestFeatures/EmployeeParameters.cs" Line="6" Column="51" />
-      <File FileName="Repository/Extensions/RepositoryEmployeeExtensions.cs" Line="23" Column="1" />
-      <File FileName="Shared/RequestFeatures/RequestParameters.cs" Line="20" Column="39" />
+      <File FileName="Repository/Extensions/RepositoryEmployeeExtensions.cs" Line="49" Column="15" />
+      <File FileName="Shared/RequestFeatures/RequestParameters.cs" Line="21" Column="38" />
+      <File FileName="Repository/Extensions/Utility/OrderQueryBuilder.cs" Line="9" Column="40" />
+      <File FileName="Contracts/IDataShaper.cs" Line="10" Column="15" />
+      <File FileName="Service/DataShaping/DataShaper.cs" Line="9" Column="37" />
+      <File FileName="CompanyEmployees/Program.cs" Line="32" Column="54" />
+      <File FileName="CompanyEmployees/Extensions/ServiceExtensions.cs" Line="50" Column="47" />
+      <File FileName="CompanyEmployees/Extensions/ExceptionMiddlewareExtensions.cs" Line="1" Column="1" />
+      <File FileName="Service/ServiceManager.cs" Line="13" Column="131" />
+      <File FileName="Entities/LinkModels/Link.cs" Line="16" Column="16" />
+      <File FileName="Entities/LinkModels/LinkResourceBase.cs" Line="8" Column="4" />
+      <File FileName="Entities/LinkModels/LinkCollectionWrapper.cs" Line="7" Column="1" />
+      <File FileName="Entities/Models/Entity.cs" Line="118" Column="35" />
+      <File FileName="Entities/Models/ShapedEntity.cs" Line="13" Column="2" />
+      <File FileName="Entities/LinkModels/LinkResponse.cs" Line="15" Column="10" />
+      <File FileName="CompanyEmployees.Presentation/ActionFilters/ValidationFilterAttribute.cs" Line="1" Column="14" />
+      <File FileName="CompanyEmployees.Presentation/ActionFilters/ValidateMediaTypeAttribute.cs" Line="26" Column="41" />
+      <File FileName="Contracts/IEmployeeLinks.cs" Line="9" Column="3" />
+      <File FileName="CompanyEmployees/Utility/EmployeeLinks.cs" Line="35" Column="22" />
+      <File FileName="Entities/LinkModels/LinkParameters.cs" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CompanyEmployees" expanded="True">
             <Node name="CompanyEmployees" expanded="True">
-              <Node name="Extensions" expanded="True" />
+              <Node name="Utility" expanded="True" />
             </Node>
-            <Node name="Repository" expanded="True">
-              <Node name="Extensions" expanded="True">
-                <Node name="RepositoryEmployeeExtensions.cs" selected="True" />
-              </Node>
+            <Node name="CompanyEmployees.Presentation" expanded="True">
+              <Node name="ActionFilters" expanded="True" />
+              <Node name="Controllers" expanded="True" />
             </Node>
+            <Node name="Service" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -31,10 +51,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.CompanyEmployees PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
