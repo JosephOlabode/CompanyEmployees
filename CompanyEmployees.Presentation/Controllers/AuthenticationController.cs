@@ -6,6 +6,8 @@ using Shared.DataTransferObjects;
 
 namespace CompanyEmployees.Presentation.Controllers
 {
+	[Route("api/authentication")]
+	[ApiController]
 	public class AuthenticationController: ControllerBase
 	{
 		private readonly IServiceManager _service;
