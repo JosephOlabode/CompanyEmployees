@@ -25,6 +25,7 @@ builder.Services.ConfigureServiceManager();
 builder.Services.ConfigureVersioning();
 builder.Services.ConfigureResponseCaching();
 builder.Services.ConfigureHttpCacheHeaders();
+builder.Services.AddMemoryCache();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
