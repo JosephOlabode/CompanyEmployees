@@ -1,13 +1,14 @@
 ﻿using System;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Repository.Configuration
 {
-	public class RoleConfiguration
-	{
-		public RoleConfiguration(EntityTypeBuilder<IdentityRole> builder)
-		{
+	public class RoleConfiguration: IEntityTypeConfiguration<IdentityRole>
+    {
+        public void Configure(EntityTypeBuilder<IdentityRole> builder)
+        {
             builder.HasData(
                 new IdentityRole
                 {
@@ -21,6 +22,6 @@ namespace Repository.Configuration
                 }
             );
         }
-	}
+    }
 }
 
